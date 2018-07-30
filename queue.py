@@ -20,7 +20,7 @@ class Node:
         self.next = newnext
 
 class UnorderedList:
-    # Sets the head of the node
+    # Sets the head and tail of the node to keep track of the front and end of the list
     def __init__(self):
         self.head = None
         self.tail = None
